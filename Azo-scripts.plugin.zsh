@@ -48,3 +48,16 @@ alias c='clear'
 
 alias e='exit'
 
+#cd into downloads and run yt-dlp
+
+function ytd() {
+  cd ~/Downloads/ || return
+
+  echo "\e[36mDownloading video to "~/Downloads"\e[0m"
+
+  yt-dlp "$1"
+
+  cd
+}
+
+
