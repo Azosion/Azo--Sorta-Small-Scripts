@@ -48,6 +48,8 @@ alias c='clear'
 
 alias e='exit'
 
+alias ff='fastfetch'
+
 #cd into downloads and run yt-dlp
 
 function ytd() {
