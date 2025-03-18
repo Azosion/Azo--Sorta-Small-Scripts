@@ -50,7 +50,7 @@ alias e='exit'
 
 alias ff='fastfetch'
 
-alias k='pkill konsole'
+alias pkk='pkill konsole'
 
 #cd into downloads and run yt-dlp
 
